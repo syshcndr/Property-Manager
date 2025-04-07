@@ -105,7 +105,8 @@
 		"lint": "next lint",
 		"shadcn-ui": "pnpm dlx shadcn@latest",
 		"start": "next start",
-		"type-check": "tsc --noEmit"
+		"type-check": "tsc --noEmit",
+		"postinstall": "prisma generate"
 	},
 	"version": "0.0.0"
 }

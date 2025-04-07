@@ -7,7 +7,8 @@
 		"start": "dotenv -c -- turbo start",
 		"lint": "biome lint .",
 		"clean": "turbo clean",
-		"format": "biome format . --write"
+		"format": "biome format . --write",
+		"postinstall": "prisma generate"
 	},
 	"engines": {
 		"node": ">=20"
